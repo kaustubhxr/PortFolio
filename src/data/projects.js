@@ -1,0 +1,26 @@
+export const projects = [
+  {
+    number: "01",
+    name: "KConnect",
+    kind: "REAL-TIME COMMUNICATION",
+    summary: "A full-stack video conferencing platform for up to 10 concurrent participants, with peer-to-peer media after connection setup.",
+    details: "WebRTC handles browser-to-browser audio and video. Socket.IO carries the signaling needed for SDP and ICE exchange, keeping the server out of the media path once peers connect.",
+    stack: ["React.js", "Node.js", "Express.js", "MongoDB", "WebRTC", "Socket.IO"],
+    demo: "https://k-connect-gules.vercel.app/",
+    repo: "",
+    featured: true,
+    mark: "< peer ↔ peer >",
+  },
+  {
+    number: "02",
+    name: "Assignment Plagiarism Detection",
+    kind: "OCR + ANALYSIS",
+    summary: "A role-based dashboard for teachers and HODs to manage submissions and review plagiarism results across handwritten assignments and PDFs.",
+    details: "OpenCV and TrOCR extract text from submitted work. A two-layer pipeline combines feature extraction and classification for plagiarism analysis.",
+    stack: ["React.js", "Python", "FastAPI", "OpenCV", "TrOCR", "Scikit-learn", "NLTK", "SQLAlchemy", "Tailwind CSS"],
+    demo: "",
+    repo: "",
+    featured: false,
+    mark: "{ text → signal }",
+  },
+];
